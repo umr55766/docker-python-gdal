@@ -2,7 +2,7 @@
 
 # Install runtime dependencies
 apt-get update -y \
-    && apt-get install -y \
+    && apt-get install -y --no-install-recommends \
         build-essential \
         python3-dev \
         python3-numpy \
