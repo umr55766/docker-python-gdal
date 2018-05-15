@@ -11,12 +11,10 @@ ENV GDAL_DAILY_URL http://www.gdal.org/daily/
 
 ENV ROOTDIR /usr/local/src/python-gdal
 
-# Compile and install Python, pip
-ADD ./scripts/install-python.sh ${ROOTDIR}/
-RUN ${ROOTDIR}/install-python.sh
+# Copy installing scripts
+ADD ./scripts ${ROOTDIR}/
 
-# Compile and install GDAL, python bindings
-ADD ./scripts/install-gdal.sh ${ROOTDIR}/
-RUN ${ROOTDIR}/install-gdal.sh
+# Compile and install Python, pip, GDAL, python bindings
+RUN ${ROOTDIR}/install-python.sh && ${ROOTDIR}/install-gdal.sh
 
 CMD python3 -V && pip -V && gdalinfo --version
