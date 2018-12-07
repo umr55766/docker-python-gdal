@@ -1,4 +1,4 @@
-# :whale: python-gdal [![CircleCI](https://circleci.com/gh/andrejreznik/docker-python-gdal/tree/master.svg?style=shield)](https://circleci.com/gh/andrejreznik/docker-python-gdal/tree/master)
+# :whale: python-gdal 
 #### Python + GDAL/OGR Docker image
 
 Get and compile latest CPython 3 and GDAL 2 sources from their official repositories.
@@ -8,15 +8,15 @@ Get and compile latest CPython 3 and GDAL 2 sources from their official reposito
 Output versions of Python, pip and GDAL
 
 ```bash
-$ docker run andrejreznik/python-gdal
+$ docker run umr55766/python_gdal:1.0.1
 
-Python 3.7.1
+Python 3.6.5
 pip 18.1 from /usr/local/lib/python3.7/site-packages/pip (python 3.7)
-GDAL 2.3.2, released 2018/09/21
+GDAL 2.3.0, released 2018/09/21
 ```
 
 Run container and start an interactive bash session as root 
 
 ```bash
-$ docker run -it andrejreznik/python-gdal bash
+$ docker run -it umr55766/python_gdal:1.0.1
 ```
