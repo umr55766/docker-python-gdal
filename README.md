@@ -1,7 +1,7 @@
 # :whale: python-gdal 
 #### Python + GDAL/OGR Docker image
 
-Get and compile latest CPython 3 and GDAL 2 sources from their official repositories.
+Get and compile latest CPython 3.6.5 and GDAL 2.3.0 sources from their official repositories.
 
 #### Usage
 
