@@ -11,7 +11,7 @@ Output versions of Python, pip and GDAL
 $ docker run umr55766/python_gdal:1.0.1
 
 Python 3.6.5
-pip 18.1 from /usr/local/lib/python3.7/site-packages/pip (python 3.7)
+pip 18.1 from /usr/local/lib/python3.6/site-packages/pip (python 3.6)
 GDAL 2.3.0, released 2018/09/21
 ```
 
