@@ -1,14 +1,14 @@
 ##
-# andrejreznik/python-gdal
+# umr55766/python_gdal
 #
 # Debian 9.6 Stretch
 FROM debian:latest
-MAINTAINER Andrey Reznik <andrey.reznik.ce@gmail.com>
+MAINTAINER Mohammad Umair <umr55766@gmail.com>
 
 # Latest stable varions
-ENV PYTHON_VERSION 3.7.1
+ENV PYTHON_VERSION 3.6.5
 ENV PYTHON_PIP_VERSION 18.1
-ENV GDAL_VERSION 2.3.2
+ENV GDAL_VERSION 2.3.0
 
 ENV ROOTDIR /usr/local/src/python-gdal
 
